@@ -1,0 +1,40 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  background: lightblue;
+  width: 100%;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+}
+
+.wrapper .testZone {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 50%;
+  height: 50%;
+  background: coral;
+  border: 2px solid gray;
+}
+
+.wrapper .testZone article {
+  width: 90%;
+  height: 30%;
+  background: white;
+}
+
+.wrapper .testZone article .bad {
+  color: red;
+}
+
+.wrapper .testZone .testZone__inputs {
+  display: flex;
+}
